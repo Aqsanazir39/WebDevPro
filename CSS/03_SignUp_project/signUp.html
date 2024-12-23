@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ddd8d8;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 400px;
+            border-radius: 8px;
+            background-color: #3ec466;
+            padding: 30px;
+        }
+        h2{
+            color: rgb(63, 72, 80);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        .name-fields {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .name-fields input {
+            width: 50%;
+            margin:5px; 
+            margin-bottom: 15px;
+        }
+        input{
+            background-color: #cdc5c5;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        button{
+            background-color:  rgb(75, 84, 91);
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            border: none;
+        }
+        button:hover{
+            background-color: #312e2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Signup</h2>
+        <form action="">
+            <input type="email" placeholder="Email">
+            <div class="name-fields">
+                <input type="text" placeholder="First Name" name="fname">
+                <input type="text" placeholder="Last Name" name="lname">
+            </div>
+            <input type="password" placeholder="Password">
+            <button>Sign&nbsp;Up</button>
+        </form>
+    </div>
+</body>
+</html>
